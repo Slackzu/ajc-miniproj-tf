@@ -10,8 +10,8 @@ terraform {
 #config provider
 provider "aws" {
   region     = var.region
-  access_key = "AKIA5HPA5JMVZMVADKZY"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 module "ebs" {
